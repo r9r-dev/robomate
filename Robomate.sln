@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo.Engine", "Robo.Engine\Robo.Engine.csproj", "{912B74A1-5F09-4F34-8AB9-AC2F3A2303C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo.Tasks", "Robo.Tasks\Robo.Tasks.csproj", "{E26DC803-766E-4077-B068-85CE29FB9C08}"
@@ -20,8 +22,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo.Interface", "Robo.Interface\Robo.Interface.csproj", "{5334E14C-56DA-4D94-ADE7-6DFB5B9AFA12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo.Tools", "Robo.Tools\Robo.Tools.csproj", "{558A1FA1-A4FD-43FE-BCA5-CDED49A1ABF5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo.Phone", "Robo.Phone\Robo.Phone.csproj", "{4329E66F-AB48-4A46-AF36-7DF85118DB41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo.Service", "Robo.Service\Robo.Service.csproj", "{17D67A37-3C0A-488F-A01A-5A066DA9F6C4}"
 EndProject
@@ -157,30 +157,6 @@ Global
 		{558A1FA1-A4FD-43FE-BCA5-CDED49A1ABF5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{558A1FA1-A4FD-43FE-BCA5-CDED49A1ABF5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{558A1FA1-A4FD-43FE-BCA5-CDED49A1ABF5}.Release|x86.ActiveCfg = Release|Any CPU
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|ARM.ActiveCfg = Debug|ARM
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|ARM.Build.0 = Debug|ARM
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|ARM.Deploy.0 = Debug|ARM
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|x86.ActiveCfg = Debug|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|x86.Build.0 = Debug|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Debug|x86.Deploy.0 = Debug|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|ARM.ActiveCfg = Release|ARM
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|ARM.Build.0 = Release|ARM
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|ARM.Deploy.0 = Release|ARM
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|Mixed Platforms.Build.0 = Release|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|Mixed Platforms.Deploy.0 = Release|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|x86.ActiveCfg = Release|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|x86.Build.0 = Release|x86
-		{4329E66F-AB48-4A46-AF36-7DF85118DB41}.Release|x86.Deploy.0 = Release|x86
 		{17D67A37-3C0A-488F-A01A-5A066DA9F6C4}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{17D67A37-3C0A-488F-A01A-5A066DA9F6C4}.Debug|ARM.ActiveCfg = Debug|x86
 		{17D67A37-3C0A-488F-A01A-5A066DA9F6C4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
@@ -196,5 +172,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13797005-5C4A-4E7C-895A-B8F368BAB7FC}
 	EndGlobalSection
 EndGlobal
