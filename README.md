@@ -1,4 +1,4 @@
-[!splash](https://github.com/rlcx/robomate/blob/master/media/splash.png)
+[!splash](https://raw.githubusercontent.com/rlcx/robomate/master/media/splash.png)
 
 ---
 
