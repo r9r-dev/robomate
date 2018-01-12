@@ -1,0 +1,18 @@
+1 Action = 1 dll
+-> Dll lue par chargement d'assembly (pour les plugins)
+
+- Nom
+- Catégorie
+- Type ? (action = tache | statement = condition, boucle)
+
+
+VisualInterface (configuration par interface graphique)
+Load()
+Save()
+
+
+ActionEngine :
+Run()
+Events (Progress, Terminated, Error) 
+
+Variables

@@ -1,0 +1,12 @@
+Techno : SQLServerCompact
+Sert à sauvegarder les données
+
+
+1 Table contenant les taches
+1 ligne = 1 tache = numéro de tache + nom + nom interne, etc
+
+1 Table contenant les actions de la tache
+1 ligne = numéro de tache + numéro d'instruction + instruction + paramètres
+
+1 Table contenant les triggers de la tache
+1 ligne = numéro de tache + numéro de trigger + instructions + paramètres

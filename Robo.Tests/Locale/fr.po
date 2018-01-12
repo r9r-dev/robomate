@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Robomate\n"
+"Language: fr\n"
+
+#: E:\_dev\GitHub\robomate\Robo.Mate\Compagnon.cs:24
+msgid "Hello ! My name is Mate. I am your compagnon helper for Robomate."
+msgstr "Bonjour ! Mon nom est Mate. Je suis là pour t'aider à utiliser Robomate."
+
