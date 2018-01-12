@@ -7,23 +7,23 @@
 ---
 
 ## Done so far
-[x] variables & tasks engine
-[x] copy/move file task (wip)
-[x] variables
-[x] automatic variables/tasks & triggers loader using reflection
-[x] plugin support
-[x] automatic and simple localization system using .po (https://poeditor.com)
-[x] media (icons, splash)
+- [x] variables & tasks engine
+- [x] copy/move file task (wip)
+- [x] variables
+- [x] automatic variables/tasks & triggers loader using reflection
+- [x] plugin support
+- [x] automatic and simple localization system using .po (https://poeditor.com)
+- [x] media (icons, splash)
 
 ## To do
-[] almost everything
-[] bot engine (tasks sequence triggered by triggers)
-[] robomate engine service (multiple bots manager)
-[] robomate engine UI (create, modify, destroy bots)
-[] Winforms => WPF
-[] database
-[] a lot of tasks, variables and triggers
-[] more tasks, variables and triggers
+- [] almost everything
+- [] bot engine (tasks sequence triggered by triggers)
+- [] robomate engine service (multiple bots manager)
+- [] robomate engine UI (create, modify, destroy bots)
+- [] Winforms => WPF
+- [] database
+- [] a lot of tasks, variables and triggers
+- [] more tasks, variables and triggers
 
 ---
 
